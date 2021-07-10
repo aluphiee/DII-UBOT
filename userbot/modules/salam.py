@@ -12,10 +12,10 @@ async def typewriter(typew):
     await typew.edit("𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦...")
 
 
-@register(outgoing=True, pattern='^.atg(?: |$)(.*)')
+@register(outgoing=True, pattern='^.km(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.... 𝐆𝐎𝐁𝐋𝐎𝐊𝐊𝐊𝐊𝐊!!!!")
+    await typew.edit("konnichiwa mou..")
 
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
@@ -90,16 +90,16 @@ async def typewriter(typew):
     await typew.edit("**PASANG PP DULU DEK,BIAR ORANG SEGRUP TAU BETAPA HINA NYA MUKA LU😆**")
 
 
-@register(outgoing=True, pattern='^X(?: |$)(.*)')
+@register(outgoing=True, pattern='^M(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GC SAMPAH, CUIHHHHH!!!!!!!!!!!**")
+    await typew.edit("**ohayou mou...**")
 
 
 @register(outgoing=True, pattern='^Z(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**War War Tai anjing, Ketrigger minta sharelok, Udah di sharelok Ga nyamperin,Keras di sosmed Bhakss...**")
+    await typew.edit("**War War Tai kucing, Ketrigger minta sharelok, Udah di sharelok Ga nyamperin,Keras di sosmed Bhakss...**")
 
 
 @register(outgoing=True, pattern='^H(?: |$)(.*)')
@@ -149,14 +149,14 @@ CMD_HELP.update({
 \nUsage: Hujat Jamet.\
 \n\nA\
 \nUsage: Hujat yang gapunya muka.\
-\n\nX\
-\nUsage: Ngatain Grup wkwk.\
+\n\nM\
+\nUsage: Menyapa ala wibu.\
 \n\nZ\
 \nUsage: teruntuk petarung.\
 \n\nH\
 \nUsage: Coba dewek ah.\
-\n\n.atg\
-\nUsage: Istighfar 1.\
+\n\n.km\
+\nUsage: Menyapa ala wibu.\
 \n\n.ast\
 \nUsage: Istighfar 2.\
 \n\nO\
